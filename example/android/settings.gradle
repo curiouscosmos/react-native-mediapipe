@@ -1,0 +1,13 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+def nodeBinary = System.getenv("NODE_BINARY") ?: "/Users/damanmehta/Library/Caches/JetBrains/WebStorm2026.2/acp-agents/.runtimes/node/24.13.0/bin/node"
+extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
+  ex.autolinkLibrariesFromCommand([
+    nodeBinary,
+    "node_modules/@react-native-community/cli/build/bin.js",
+    "config"
+  ])
+}
+rootProject.name = 'TsMediapipeExample'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
