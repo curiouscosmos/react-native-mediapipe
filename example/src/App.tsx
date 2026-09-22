@@ -7,7 +7,10 @@ import {
   SafeAreaView,
   Dimensions,
 } from 'react-native';
-import { RNMediapipe, switchCamera } from '@curiouscosmos/react-native-mediapipe';
+import {
+  RNMediapipe,
+  switchCamera,
+} from '@curiouscosmos/react-native-mediapipe';
 
 export default function App() {
   const { width, height } = Dimensions.get('window');
