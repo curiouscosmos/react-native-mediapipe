@@ -1607,7 +1607,7 @@ PODS:
     - React-utils (= 0.87.1)
     - ReactNativeDependencies
   - ReactNativeDependencies (0.87.1)
-  - ReactNativeMediapipe (0.0.20):
+  - ReactNativeMediapipe (0.0.3):
     - hermes-engine
     - MediaPipeTasksVision (= 1.0.0)
     - RCTRequired
@@ -1991,10 +1991,10 @@ SPEC CHECKSUMS:
   ReactCodegen: 13d2ebfe2d8f1200052509b4fc4abf7a6825a7fc
   ReactCommon: 749169e12aa3461a3df3656a00e48dbe0456b2d6
   ReactNativeDependencies: 94c922c39e0e6150ee9ad05e2ca1946e0ef55783
-  ReactNativeMediapipe: dc6fa9f5f3d52f418ce283852f1186529e37121d
+  ReactNativeMediapipe: 4fa53fc2d894e64d83a41e6661f50f0806d36bdc
   SocketRocket: 37aec555668fb852ec12e3c0de59a86ca58f0871
   Yoga: d1c536142c5ff8ec8cd856ab2a7c227a1d875c8e
 
-PODFILE CHECKSUM: e14ca47cf49e50ef97956e16d52fd025e2b52868
+PODFILE CHECKSUM: 8fb4d7c03bdf754000be6b46640e3671cc98f442
 
 COCOAPODS: 1.16.2
