@@ -1,6 +1,6 @@
 {
-  "name": "react-native-mediapipe",
-  "version": "0.0.20",
+  "name": "@curiouscosmos/react-native-mediapipe",
+  "version": "0.0.1",
   "description": "MediaPipe pose detection for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
