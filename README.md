@@ -2,7 +2,7 @@
 
 MediaPipe pose detection for bare React Native apps on iOS and Android.
 
-Expo is not supported.
+Expo is not yet supported.
 
 ## Requirement
 * React Native 0.87.x
@@ -13,7 +13,7 @@ Expo is not supported.
 
 ## Installation
 ```
-npm install react-native-mediapipe
+npm install @curiouscosmos/react-native-mediapipe
 ```
 
 ## iOS setup
@@ -69,13 +69,13 @@ Add these to your project's manifest.
 ### Basic
 
 ```js
-import { RNMediapipe } from 'react-native-mediapipe';
+import { RNMediapipe } from '@curiouscosmos/react-native-mediapipe';
 
 export default function App() {
 
     return (
         <View>
-            <RNMediapipe 
+            <RNMediapipe
                 width={400}
                 height={300}
             />
@@ -90,13 +90,13 @@ export default function App() {
 #### By default, the body prop is set to true
 
 ```js
-import { RNMediapipe } from 'react-native-mediapipe';
+import { RNMediapipe } from '@curiouscosmos/react-native-mediapipe';
 
 export default function App() {
 
     return (
         <View>
-            <RNMediapipe 
+            <RNMediapipe
                 width={400}
                 height={300}
                 face={true}
@@ -118,7 +118,7 @@ export default function App() {
 ### Usage with switch camera method
 
 ```js
-import { RNMediapipe, switchCamera } from 'react-native-mediapipe';
+import { RNMediapipe, switchCamera } from '@curiouscosmos/react-native-mediapipe';
 
 export default function App() {
 
@@ -128,7 +128,7 @@ export default function App() {
 
     return (
         <View>
-            <RNMediapipe 
+            <RNMediapipe
                 width={400}
                 height={300}
             />
@@ -145,13 +145,13 @@ export default function App() {
 ### Usage with onLandmark prop
 
 ```js
-import { RNMediapipe } from 'react-native-mediapipe';
+import { RNMediapipe } from '@curiouscosmos/react-native-mediapipe';
 
 export default function App() {
 
     return (
         <View>
-            <RNMediapipe 
+            <RNMediapipe
                 width={400}
                 height={300}
                 onLandmark={(data) => {
