@@ -37,5 +37,11 @@ target 'TsMediapipeExample' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+
+    Dir.glob("#{installer.sandbox.target_support_files_root}/**/*.xcconfig").each do |path|
+      contents = File.read(path)
+      cleaned = contents.gsub(' "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}"', '')
+      File.write(path, cleaned) if cleaned != contents
+    end
   end
 end

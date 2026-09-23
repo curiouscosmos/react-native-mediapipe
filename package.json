@@ -1,6 +1,6 @@
 {
   "name": "@curiouscosmos/react-native-mediapipe",
-  "version": "0.0.3",
+  "version": "0.1.1",
   "description": "MediaPipe pose detection for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -41,14 +41,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/damanmehta/react-native-mediapipe.git"
+    "url": "git+https://github.com/curiouscosmos/react-native-mediapipe.git"
   },
   "author": "React Native MediaPipe maintainers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/damanmehta/react-native-mediapipe/issues"
+    "url": "https://github.com/curiouscosmos/react-native-mediapipe/issues"
   },
-  "homepage": "https://github.com/damanmehta/react-native-mediapipe#readme",
+  "homepage": "https://github.com/curiouscosmos/react-native-mediapipe#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
