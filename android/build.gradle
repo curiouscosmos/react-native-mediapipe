@@ -54,6 +54,7 @@ android {
     sourceSets {
       main {
         manifest.srcFile "src/main/AndroidManifestNew.xml"
+        res.srcDirs = [file("src/main/res").canonicalFile]
         assets.srcDirs = ['src/main/assets']
       }
     }
